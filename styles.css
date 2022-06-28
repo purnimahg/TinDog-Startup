@@ -1,0 +1,250 @@
+
+body {
+  font-family: "Montserrat";
+  margin-bottom: 0;
+  text-align: center;
+}
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+  font-weight: bolder !important;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+p {
+  color: white !important;
+  padding-bottom: 5%;
+}
+em {
+  color: white;
+}
+
+/* Headings */
+.big-heading {
+  color: white;
+  font-weight: 800 !important;
+  font-size: 3.5rem !important;
+  line-height: 1.5;
+}
+
+/* Section specifiers */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem !important;
+  padding-left: 16%;
+  padding-right: 8%;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 2.5rem !important;
+}
+.navbar li{
+  font-size: 1rem !important;
+  padding: 0 18px 0 18px;
+}
+.navbar li a{
+  color: lightgray !important;
+}
+.navbar li a:hover{
+  color: white !important;
+}
+
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image  */
+.title-image {
+  top: 30%;
+  right: 20%;
+  width: 25%;
+  transform: rotate(25deg); /*- specifies left turn */
+  position: absolute;
+  padding-left: 20px;
+}
+
+
+/* Features Section */
+
+#features {
+  height: 30%;
+  padding: 12% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; This element is by default under the title image element, this will by default make the feature section slack below the title-image */
+}
+
+.icon {
+    color: #ef8172;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 4rem;
+    padding-bottom: 25px;
+}
+.icon:hover {
+  color: crimson;
+}
+.feature-items {
+  padding: 4.5%;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172 !important;
+  padding: 7%;
+  text-align: center;
+}
+.testimonial-text {
+  font-size: 2rem;
+  color: white;
+}
+.carousel-item img {
+  height: 80px;
+  border-radius: 50%;
+}
+.carousel-item h2{
+  padding: 5% 20% 2% 20%;
+}
+.carousel-item em{
+  padding-left: 2%;
+}
+
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+#press img {
+  width: 250px;
+  padding: 5% 25px 10% 25px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 10% 12% 10% 12%;
+  text-align: center;
+}
+.section-heading {
+  color: black !important;
+  font-size: 2.5rem !important;
+}
+.section-text {
+  color: gray !important;
+}
+.card-header {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bolder !important;
+  color: white !important;
+  background-color: #ff4c68 !important;
+}
+.card-title{
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  color: black;
+}
+.btn-outline-primary {
+    color: #ff4c68 !important;
+    border-color: #ff4c68 !important;
+}
+.btn-outline-primary:hover {
+  background-color: #ff4c68 !important;
+  color: white !important;
+}
+.btn-primary {
+  background-color: #ff4c68 !important;
+  border-color: #ff4c68 !important;
+}
+.btn-primary:hover {
+  background-color: crimson !important;
+}
+.card-mastiff {
+  border-color: #ff4c68 !important;
+}
+
+
+/* Call to Action */
+
+#cta {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+#cta h3 {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+#cta button {
+  margin: 5px 5px 60px 5px;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 8%;
+  text-align: center;
+}
+#footer p{
+  color: black !important;
+}
+.contacticons i{
+  padding: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 990px){
+  .navbar {
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+  #title {
+    height: 75%;
+  }
+  #title .row {
+    text-align: center !important;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #title h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0 !important;
+  }
+  #features {
+    position: static;
+  }
+
+}

@@ -1,2 +1,2 @@
-# TinDog-Startup
-A tinder for dogs startup website
+# TinDog-Start-master
+ Tinder for dogs website using HTML and CSS
